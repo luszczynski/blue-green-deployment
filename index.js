@@ -7,7 +7,7 @@ http.createServer(function(req, res){
   var action = request.pathname;
 
   if (action == '/') {
-     var img = fs.readFileSync('./blue.jpg');
+     var img = fs.readFileSync('./green.jpg');
      res.writeHead(200, {'Content-Type': 'image/jpg' });
      res.end(img, 'binary');
   } else {
