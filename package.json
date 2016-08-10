@@ -18,7 +18,5 @@
   },
   "homepage": "https://github.com/luszczynski/blue-green-deployment#readme",
   "dependencies": {
-    "hapi": "^14.1.0",
-    "inert": "^4.0.1"
   }
 }
